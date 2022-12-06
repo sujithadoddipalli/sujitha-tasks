@@ -1,17 +1,26 @@
 ﻿using System;
 
-namespace MyApplication
+class matrix
 {
-    class persion//class
-    {
-        string name = "rani";
-        int age = 28;
+    int a = 40;
+    int b = 20;
+    int w, x, y, z;
 
-        public static void main(string[] args)
-        {
-            persion p = new persion();
-            Console.WriteLine(p.name);
-            Console.WriteLine(p.age);
-        }
+    public static void Main(string[] args)
+    {
+        matrix matrix m = new matrix();
+    }
+    public matrix()
+    {
+        w = a + b;
+        Console.WriteLine(w);
+        x = a - b;
+        Console.WriteLine(x);
+        y = a * b;
+        Console.WriteLine(y);
+        z = a / b;
+        Console.WriteLine(z);
     }
 }
+
+
