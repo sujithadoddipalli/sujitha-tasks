@@ -2,18 +2,16 @@
 
 namespace MyApplication
 {
-    class persion   // class
+    class persion//class
     {
-        string name = "saathvika reddy";
-        int age = 7;
+        string name = "rani";
+        int age = 28;
 
-        static void Main(string[] args)
+        public static void main(string[] args)
         {
-            persion myObj = new persion(); // object
-            Console.WriteLine(myObj.name);
-            Console.WriteLine(myObj.age);
+            persion p = new persion();
+            Console.WriteLine(p.name);
+            Console.WriteLine(p.age);
         }
     }
 }
-
-
